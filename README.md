@@ -1,2 +1,1 @@
-# br.com.aplicando.pitest
-Nesse projeto iremos fazer a aplicação da ferramenta de testes mutantes - Pitest
+Sobre o projeto: https://dev.to/gabrielaugusto1996/testes-de-mutacao-garanta-ja-a-qualidade-do-seu-codigo-16gn
