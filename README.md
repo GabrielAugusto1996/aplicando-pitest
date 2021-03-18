@@ -188,5 +188,5 @@ Agora deixo um desafio especial para que você execute o **Pitest** no seu proje
 **Observação:** Na minha primeira vez não foi muito positivo, mas me ajudou a ter uma qualidade maior nos projetos :D
 
 - Linkedin: https://www.linkedin.com/in/gabriel-augusto-1b4914145/
-- GitHub: https://github.com/GabrielAugusto1996/aplicando-pitest
+- Dev.to: https://dev.to/gabrielaugusto1996/testes-de-mutacao-garanta-ja-a-qualidade-do-seu-codigo-16gn
  
