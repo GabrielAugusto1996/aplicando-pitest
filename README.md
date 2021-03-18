@@ -1,22 +1,22 @@
 **Hello World**, sejam bem vindos ao meu artigo relacionado à testes de mutação.
 
-##Agradecimentos especiais:
+## Agradecimentos especiais:
 
 Antes de iniciarmos, gostaria muito de agradecer ao meu amigo de trabalho [**Paulo Ricardo**](https://www.linkedin.com/in/pricardoti/) pelo incentivo de estar escrevendo esse artigo e poder compartilhar a minha visão dessa ferramenta com o restante de vocês.
 
-##Afinal, o que é o Teste de Mutação?
+## Afinal, o que é o Teste de Mutação?
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/74xrpgja3vl50ijpvxfx.png) 
 
 O Pitest faz uma mutação no seu projeto, ele permite que você garanta uma margem de cobertura real dentro dos seus testes fazendo uma “cópia” do projeto e inserindo erros para ver se o seus testes irão falhar após a mutação. Quando o teste falha o mutante é morto. Caso algum mutante sobreviva isso significa que você precisa fazer mais testes unitários, os mutantes vivos servem de input para criar mais testes.
 
-##Ok, mas como isso me ajuda com a qualidade do meu código?
+## Ok, mas como isso me ajuda com a qualidade do meu código?
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lswmr2pp6tnea5hs8k1n.png) 
 
 Devido as clássicas correrias que os desenvolvedores precisam entrar para entregar um determinado projeto, acaba que o teste é feito mais para poder aumentar a cobertura do código, só que isso não é o correto, os testes vem com o objetivo de fornecer mais a qualidade do que você está entregando para algum cliente ou consumidor e também documentar para que outro desenvolvedor entenda melhor o seu código, mais pra frente vocês irão entender em que ponto quero chegar :)
 
-##Quais tecnologias iremos utilizar?
+## Quais tecnologias iremos utilizar?
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gwddh9mzr7fub83gdvag.png) 
 
@@ -30,7 +30,7 @@ Para esse artigo em questão, iremos precisar ter as seguintes tecnologias no no
 
 Não irei entrar muito a dentro de todas as tecnologias utilizadas pois não é o nosso objetivo desse artigo.
 
-##Configurando o nosso projeto:
+## Configurando o nosso projeto:
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vc5dbouy55a2xq6iyn5z.png) 
 
@@ -90,7 +90,7 @@ Também será necessário que a gente adicione no nosso projeto o plugin do **pi
 ```
 Só espero que você não exclua o projeto inteiro, ok? :D
 
-##Revelando a falha de fazer teste apenas para cobertura:
+## Revelando a falha de fazer teste apenas para cobertura:
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9txnkmi5av2hmkoojqoq.png)
 
@@ -148,7 +148,7 @@ Mas afinal, nesse exemplo simples não tivemos nenhum problema, onde estava o no
 
 Exatamente, esquecemos de fazer a validação se o atributo de **idade** foi settado corretamente, vamos ver o que o **Pitest** tem a dizer?
 
-##Entrando mais na ferramenta:
+## Entrando mais na ferramenta:
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8teleik9kxgyusxvhci8.png)
 
@@ -177,7 +177,7 @@ Como podemos ver, o **Pitest** tirou a nossa linha do usuario.setIdade(idade); e
 
 Então agora basta voltarmos na nossa classe de teste e fazer as suas devidas alterações.
 
-##Obrigado pessoal:
+## Obrigado pessoal:
 
 ![image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/utjsstdcrxflznbq5mx9.png)
  
